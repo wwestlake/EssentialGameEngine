@@ -1,5 +1,6 @@
 // EssentialGameEngine.cpp : Defines the entry point for the console application.
 //
+
 #include "Application.h"
 #include <windows.h>
 #include <iostream>
