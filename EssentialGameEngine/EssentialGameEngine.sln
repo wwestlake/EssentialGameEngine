@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EssentialGameEngine", "EssentialGameEngine.vcxproj", "{30280FEA-EA81-4B10-A146-90A3A91D8038}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EGELauncher", "..\EGELauncher\EGELauncher.vcxproj", "{1CB78382-3D46-4E3D-8E1E-9659C04ED97F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30280FEA-EA81-4B10-A146-90A3A91D8038} = {30280FEA-EA81-4B10-A146-90A3A91D8038}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
